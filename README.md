@@ -115,7 +115,7 @@ if (tile.number == lastNode->tile.number + 1 && tile.color == lastNode->tile.col
 }
 ```
 
-### ⚖Operator Overload (tTile.cpp)
+### Operator Overload (tTile.cpp)
 
 ```cpp
 bool operator==(tTile left, tTile right) {
@@ -134,4 +134,3 @@ Computer Science engineer
 
 Final Project, Programming Fundamentals
 
----
