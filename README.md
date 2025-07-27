@@ -4,8 +4,6 @@ This is a console based implementation of the classic board game **Rummikub**. T
 
 > Fully written in `C++` using dynamic memory, pointers, and linked lists.
 
----
-
 ## Gameplay Overview
 
 - 4 players take turns placing tiles from their rack onto the board.
