@@ -43,7 +43,7 @@ rummikub/
 
 ### 🛠️ Requirements
 
-To compile and run the project, a C++ compiler is required. The project can be compiled with the following instruction:
+To compile and run the project, a `C++` compiler is required. The project can be compiled with the following instruction:
 
 ### Compile using g++
 
