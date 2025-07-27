@@ -57,6 +57,7 @@ In order to simplify the build process, a `Makefile` is provided:
 
 ```bash
 make
+
 ./rummikub
 ```
 
