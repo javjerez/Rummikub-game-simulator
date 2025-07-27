@@ -17,8 +17,6 @@ This is a console based implementation of the classic board game **Rummikub**. T
   - **Draw a tile** if no valid move
 - If **all players pass** and the **tile bag is empty**, the player with the **lowest score wins**.
 
----
-
 ## Concepts Covered
 
 - Modular project structure with headers
@@ -27,8 +25,6 @@ This is a console based implementation of the classic board game **Rummikub**. T
 - Operator overloading
 - Use of enums for color and tile types
 - Memory leak detection in Visual Studio (`crtdbg.h`)
-
----
 
 ## Project Structure
 
@@ -42,8 +38,6 @@ rummikub/
 ├── tBag.cpp/.h       # Tile bag logic
 ├── tBoard.cpp/.h     # Game board and tile placement
 ```
-
----
 
 ## How to Compile and Run
 
@@ -79,8 +73,6 @@ make
 
 This makes the memory leak check optional and VS-only.
 
----
-
 ## ✨ Interesting Code Highlights
 
 ### Endgame Detection (Main.cpp)
@@ -94,8 +86,6 @@ if (final_counter == NUM_PLAYERS) {
 
 This check ensures the game ends **only when no player can make a move and the bag is empty**, mirroring the real-life Rummikub rules.
 
----
-
 ### Sorting Tiles by Color (tRack.cpp)
 
 ```cpp
@@ -103,8 +93,6 @@ sortByColor(rack);
 ```
 
 This function rearranges the rack visually by color, helping players spot potential **runs** easily, improving playability.
-
----
 
 ### Manual Linked List (tSet.cpp)
 
@@ -125,8 +113,6 @@ if (tile.number == lastNode->tile.number + 1 && tile.color == lastNode->tile.col
     lastNode->next = newNode;
 }
 ```
-
----
 
 ### ⚖Operator Overload (tTile.cpp)
 
