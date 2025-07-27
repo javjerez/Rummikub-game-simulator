@@ -51,6 +51,7 @@ g++ -std=c++11 -Wall -o rummikub Main.cpp tTile.cpp tSet.cpp tRack.cpp tRacks.cp
 ./rummikub
 ```
 
+### Compile using a Makefile
 In order to simplify the build process, a `Makefile` is provided:
 
 ```bash
