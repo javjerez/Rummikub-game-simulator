@@ -73,7 +73,7 @@ make
 
 This makes the memory leak check optional and VS-only.
 
-## ✨ Interesting Code Highlights
+## Interesting Code Highlights
 
 ### Endgame Detection (Main.cpp)
 
