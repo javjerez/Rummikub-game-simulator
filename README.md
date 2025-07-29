@@ -2,7 +2,7 @@
 
 This is a console based implementation of the classic board game **Rummikub**. The game simulates multiple players, uses dynamic memory, linked lists, and features modular design across several `.cpp` and `.h` files.
 
-> Fully written in `C++` using dynamic memory, pointers, and linked lists.
+> Fully written in `C++` using dynamic memory, pointers and linked lists.
 
 ## Gameplay Overview
 
